@@ -1,0 +1,425 @@
+Script started on Sat 30 May 2020 08:17:55 PM PDT
+]0;zhaolia@rabbit:~/cs575/pro6/part3[?1034hrabbit ~/cs575/pro6/part3 989$ exitmake[2Pls[K[Ks[Kscript.sh
+GPU MULTIPLY 2 ARRAYS
+NUM_ELEMENTS	LOCAL_SIZE	NUM_WORK_GROUPS		Performance
+
+ 1048576	   2	    524288	     0.561 GigaMultsPerSecond
+ 2097152	   2	   1048576	     0.652 GigaMultsPerSecond
+ 4194304	   2	   2097152	     0.704 GigaMultsPerSecond
+ 6291456	   2	   3145728	     0.691 GigaMultsPerSecond
+ 8388608	   2	   4194304	     0.722 GigaMultsPerSecond
+10485760	   2	   5242880	     0.732 GigaMultsPerSecond
+16777216	   2	   8388608	     0.710 GigaMultsPerSecond
+25165824	   2	  12582912	     0.745 GigaMultsPerSecond
+33554432	   2	  16777216	     0.739 GigaMultsPerSecond
+67108864	   2	  33554432	     0.734 GigaMultsPerSecond
+134217728	   2	  67108864	     0.674 GigaMultsPerSecond
+ 1048576	  32	     32768	     1.931 GigaMultsPerSecond
+ 2097152	  32	     65536	     3.683 GigaMultsPerSecond
+ 4194304	  32	    131072	     5.114 GigaMultsPerSecond
+ 6291456	  32	    196608	     6.075 GigaMultsPerSecond
+ 8388608	  32	    262144	     6.654 GigaMultsPerSecond
+10485760	  32	    327680	     6.984 GigaMultsPerSecond
+16777216	  32	    524288	     8.269 GigaMultsPerSecond
+25165824	  32	    786432	     8.709 GigaMultsPerSecond
+33554432	  32	   1048576	     8.871 GigaMultsPerSecond
+67108864	  32	   2097152	     9.369 GigaMultsPerSecond
+134217728	  32	   4194304	     6.041 GigaMultsPerSecond
+ 1048576	 128	      8192	     2.072 GigaMultsPerSecond
+ 2097152	 128	     16384	     3.689 GigaMultsPerSecond
+ 4194304	 128	     32768	     0.316 GigaMultsPerSecond
+ 6291456	 128	     49152	     8.296 GigaMultsPerSecond
+ 8388608	 128	     65536	     9.207 GigaMultsPerSecond
+10485760	 128	     81920	    11.303 GigaMultsPerSecond
+16777216	 128	    131072	    11.627 GigaMultsPerSecond
+25165824	 128	    196608	    13.806 GigaMultsPerSecond
+33554432	 128	    262144	    14.774 GigaMultsPerSecond
+67108864	 128	    524288	    16.038 GigaMultsPerSecond
+134217728	 128	   1048576	    16.716 GigaMultsPerSecond
+ 1048576	 256	      4096	     2.570 GigaMultsPerSecond
+ 2097152	 256	      8192	     4.683 GigaMultsPerSecond
+ 4194304	 256	     16384	     7.004 GigaMultsPerSecond
+ 6291456	 256	     24576	     8.634 GigaMultsPerSecond
+ 8388608	 256	     32768	    10.182 GigaMultsPerSecond
+10485760	 256	     40960	    11.019 GigaMultsPerSecond
+16777216	 256	     65536	    12.992 GigaMultsPerSecond
+25165824	 256	     98304	    14.168 GigaMultsPerSecond
+33554432	 256	    131072	    14.866 GigaMultsPerSecond
+67108864	 256	    262144	    15.964 GigaMultsPerSecond
+134217728	 256	    524288	    16.678 GigaMultsPerSecond
+ 1048576	 512	      2048	     2.386 GigaMultsPerSecond
+ 2097152	 512	      4096	     4.448 GigaMultsPerSecond
+ 4194304	 512	      8192	     7.145 GigaMultsPerSecond
+ 6291456	 512	     12288	     8.517 GigaMultsPerSecond
+ 8388608	 512	     16384	    10.412 GigaMultsPerSecond
+10485760	 512	     20480	    10.750 GigaMultsPerSecond
+16777216	 512	     32768	    13.151 GigaMultsPerSecond
+25165824	 512	     49152	     7.748 GigaMultsPerSecond
+33554432	 512	     65536	    14.763 GigaMultsPerSecond
+67108864	 512	    131072	    15.933 GigaMultsPerSecond
+134217728	 512	    262144	    16.195 GigaMultsPerSecond
+ 1048576	1024	      1024	     1.413 GigaMultsPerSecond
+ 2097152	1024	      2048	     0.557 GigaMultsPerSecond
+ 4194304	1024	      4096	     6.931 GigaMultsPerSecond
+ 6291456	1024	      6144	     8.746 GigaMultsPerSecond
+ 8388608	1024	      8192	     9.471 GigaMultsPerSecond
+10485760	1024	     10240	    10.844 GigaMultsPerSecond
+16777216	1024	     16384	    12.838 GigaMultsPerSecond
+25165824	1024	     24576	    13.987 GigaMultsPerSecond
+33554432	1024	     32768	    14.048 GigaMultsPerSecond
+67108864	1024	     65536	    15.475 GigaMultsPerSecond
+134217728	1024	    131072	    16.309 GigaMultsPerSecond
+
+GPU MULTIPLY AND ADD
+ 1048576	   2	    524288	     0.576 GigaMultsPerSecond
+ 2097152	   2	   1048576	     0.693 GigaMultsPerSecond
+ 4194304	   2	   2097152	     0.721 GigaMultsPerSecond
+ 6291456	   2	   3145728	     0.734 GigaMultsPerSecond
+ 8388608	   2	   4194304	     0.757 GigaMultsPerSecond
+10485760	   2	   5242880	     0.341 GigaMultsPerSecond
+16777216	   2	   8388608	     0.676 GigaMultsPerSecond
+25165824	   2	  12582912	     0.512 GigaMultsPerSecond
+33554432	   2	  16777216	     0.744 GigaMultsPerSecond
+67108864	   2	  33554432	     0.826 GigaMultsPerSecond
+134217728	   2	  67108864	     0.830 GigaMultsPerSecond
+ 1048576	  32	     32768	     1.898 GigaMultsPerSecond
+ 2097152	  32	     65536	     3.568 GigaMultsPerSecond
+ 4194304	  32	    131072	     5.461 GigaMultsPerSecond
+ 6291456	  32	    196608	     5.453 GigaMultsPerSecond
+ 8388608	  32	    262144	     7.234 GigaMultsPerSecond
+10485760	  32	    327680	     0.302 GigaMultsPerSecond
+16777216	  32	    524288	     8.538 GigaMultsPerSecond
+25165824	  32	    786432	     8.645 GigaMultsPerSecond
+33554432	  32	   1048576	     8.529 GigaMultsPerSecond
+67108864	  32	   2097152	     9.634 GigaMultsPerSecond
+134217728	  32	   4194304	     9.935 GigaMultsPerSecond
+ 1048576	 128	      8192	     1.528 GigaMultsPerSecond
+ 2097152	 128	     16384	     4.175 GigaMultsPerSecond
+ 4194304	 128	     32768	     6.122 GigaMultsPerSecond
+ 6291456	 128	     49152	     7.905 GigaMultsPerSecond
+ 8388608	 128	     65536	     8.543 GigaMultsPerSecond
+10485760	 128	     81920	     9.628 GigaMultsPerSecond
+16777216	 128	    131072	    11.232 GigaMultsPerSecond
+25165824	 128	    196608	    11.077 GigaMultsPerSecond
+33554432	 128	    262144	    12.197 GigaMultsPerSecond
+67108864	 128	    524288	    12.630 GigaMultsPerSecond
+clEnqueueWriteBuffer failed (2)
+clEnqueueWriteBuffer failed (3)
+clEnqueueNDRangeKernel failed: -4
+clEnqueueReadBuffer failed
+134217728	 128	   1048576	    12.102 GigaMultsPerSecond
+ 1048576	 256	      4096	     1.827 GigaMultsPerSecond
+ 2097152	 256	      8192	     4.545 GigaMultsPerSecond
+ 4194304	 256	     16384	     6.892 GigaMultsPerSecond
+ 6291456	 256	     24576	     8.594 GigaMultsPerSecond
+ 8388608	 256	     32768	     8.277 GigaMultsPerSecond
+10485760	 256	     40960	     9.683 GigaMultsPerSecond
+16777216	 256	     65536	    10.937 GigaMultsPerSecond
+25165824	 256	     98304	     6.225 GigaMultsPerSecond
+33554432	 256	    131072	     7.195 GigaMultsPerSecond
+67108864	 256	    262144	    12.635 GigaMultsPerSecond
+134217728	 256	    524288	    13.231 GigaMultsPerSecond
+ 1048576	 512	      2048	     2.286 GigaMultsPerSecond
+ 2097152	 512	      4096	     3.468 GigaMultsPerSecond
+ 4194304	 512	      8192	     5.589 GigaMultsPerSecond
+ 6291456	 512	     12288	     6.068 GigaMultsPerSecond
+ 8388608	 512	     16384	     7.578 GigaMultsPerSecond
+10485760	 512	     20480	     0.665 GigaMultsPerSecond
+16777216	 512	     32768	    10.388 GigaMultsPerSecond
+25165824	 512	     49152	     1.539 GigaMultsPerSecond
+33554432	 512	     65536	    11.688 GigaMultsPerSecond
+clEnqueueNDRangeKernel failed: -4
+clEnqueueReadBuffer failed
+67108864	 512	    131072	     9.893 GigaMultsPerSecond
+134217728	 512	    262144	    13.495 GigaMultsPerSecond
+ 1048576	1024	      1024	     1.777 GigaMultsPerSecond
+ 2097152	1024	      2048	     3.484 GigaMultsPerSecond
+ 4194304	1024	      4096	     5.985 GigaMultsPerSecond
+ 6291456	1024	      6144	     6.652 GigaMultsPerSecond
+ 8388608	1024	      8192	     3.134 GigaMultsPerSecond
+10485760	1024	     10240	     7.190 GigaMultsPerSecond
+16777216	1024	     16384	     9.931 GigaMultsPerSecond
+25165824	1024	     24576	    10.851 GigaMultsPerSecond
+33554432	1024	     32768	    11.850 GigaMultsPerSecond
+67108864	1024	     65536	    12.479 GigaMultsPerSecond
+clEnqueueWriteBuffer failed (2)
+clEnqueueWriteBuffer failed (3)
+clEnqueueNDRangeKernel failed: -4
+clEnqueueReadBuffer failed
+134217728	1024	    131072	    12.114 GigaMultsPerSecond
+
+GPU MULTIPLY-REDUCE
+       1	  32	     32768	     1.322 GigaMultsPerSecond
+       2	  32	     65536	     1.764 GigaMultsPerSecond
+       4	  32	    131072	     2.537 GigaMultsPerSecond
+       6	  32	    196608	     3.253 GigaMultsPerSecond
+       8	  32	    262144	     3.482 GigaMultsPerSecond
+      10	  32	    327680	     3.958 GigaMultsPerSecond
+      16	  32	    524288	     3.016 GigaMultsPerSecond
+      24	  32	    786432	     4.294 GigaMultsPerSecond
+      32	  32	   1048576	     4.461 GigaMultsPerSecond
+      64	  32	   2097152	     4.583 GigaMultsPerSecond
+clEnqueueWriteBuffer failed (2)
+clEnqueueNDRangeKernel failed: -4
+     128	  32	   4194304	    11.966 GigaMultsPerSecond
+]0;zhaolia@rabbit:~/cs575/pro6/part3rabbit ~/cs575/pro6/part3 990$ ssh submit-c.hpc.engr.oregonstate.edu
+zhaolia@submit-c.hpc.engr.oregonstate.edu's password: 
+Last login: Sat May 30 15:01:19 2020 from rabbit.engr.oregonstate.edu
+========================================================================
+This system is strictly for use by faculty, students, and staff of
+       the College of Engineering, Oregon State University.
+
+    Unauthorized access is prohibited - violators will be prosecuted
+
+      Use should be consistent with the OSU Acceptable Use Policy
+       as well as College of Engineering policies and guidelines.
+  Refer to http://it.engineering.oregonstate.edu
+
+========================================================================
+   Quotas are used for home directories, incoming email, and printing.
+                    For details, check:
+           http://it.engineering.oregonstate.edu
+------------------------------------------------------------------------
+If you have any problems with this machine, please mail support@engr.orst.edu
+========================================================================
+
+]0;zhaolia@submit-c:~[?1034hsubmit-c ~ 989$ module load slurm
+]0;zhaolia@submit-c:~submit-c ~ 990$ cd cs575/pro6
+]0;zhaolia@submit-c:~/cs575/pro6submit-c ~/cs575/pro6 991$ ls
+[0m[38;5;27mCL[0m                       [38;5;34mMakefile[0m     [38;5;34mMult.cl[0m   [38;5;34mMultRedu.cl[0m        [38;5;27mpart3[0m
+data.txt                 [38;5;34mMult[0m         [38;5;34mMult.cpp[0m  [38;5;34mMultRedu.cpp[0m
+[38;5;34mDGX_MultScriptAdd.bash[0m   [38;5;34mMultAdd[0m      Mult.err  [38;5;34mMultScriptAdd.sh[0m
+[38;5;34mDGX_MultScript.bash[0m      [38;5;34mMultAdd.cl[0m   Mult.out  [38;5;34mMultScriptRedu.sh[0m
+[38;5;34mDGX_MultScriptRedu.bash[0m  [38;5;34mMultAdd.cpp[0m  [38;5;34mMultRedu[0m  [38;5;34mMultScript.sh[0m
+]0;zhaolia@submit-c:~/cs575/pro6submit-c ~/cs575/pro6 992$ sbatch MultS[K[K[K[K[KDGX_MultScript,s[K[K.bash 
+Submitted batch job 18389
+]0;zhaolia@submit-c:~/cs575/pro6submit-c ~/cs575/pro6 993$ cat Mult.err
+ 1048576	   2	    524288	     0.930 GigaMultsPerSecond
+ 2097152	   2	   1048576	     1.026 GigaMultsPerSecond
+ 4194304	   2	   2097152	     1.099 GigaMultsPerSecond
+ 8388608	   2	   4194304	     1.147 GigaMultsPerSecond
+16777216	   2	   8388608	     1.167 GigaMultsPerSecond
+33554432	   2	  16777216	     1.180 GigaMultsPerSecond
+67108864	   2	  33554432	     1.188 GigaMultsPerSecond
+134217728	   2	  67108864	     1.227 GigaMultsPerSecond
+ 1048576	   4	    262144	     1.461 GigaMultsPerSecond
+ 2097152	   4	    524288	     1.797 GigaMultsPerSecond
+ 4194304	   4	   1048576	     2.013 GigaMultsPerSecond
+ 8388608	   4	   2097152	     2.161 GigaMultsPerSecond
+16777216	   4	   4194304	     2.274 GigaMultsPerSecond
+33554432	   4	   8388608	     2.324 GigaMultsPerSecond
+67108864	   4	  16777216	     2.360 GigaMultsPerSecond
+134217728	   4	  33554432	     2.622 GigaMultsPerSecond
+ 1048576	   8	    131072	     2.218 GigaMultsPerSecond
+ 2097152	   8	    262144	     2.836 GigaMultsPerSecond
+ 4194304	   8	    524288	     3.401 GigaMultsPerSecond
+ 8388608	   8	   1048576	     3.764 GigaMultsPerSecond
+16777216	   8	   2097152	     4.337 GigaMultsPerSecond
+33554432	   8	   4194304	     4.487 GigaMultsPerSecond
+67108864	   8	   8388608	     4.573 GigaMultsPerSecond
+134217728	   8	  16777216	     4.682 GigaMultsPerSecond
+ 1048576	  32	     32768	     0.437 GigaMultsPerSecond
+ 2097152	  32	     65536	     3.305 GigaMultsPerSecond
+ 4194304	  32	    131072	     7.498 GigaMultsPerSecond
+ 8388608	  32	    262144	     1.508 GigaMultsPerSecond
+16777216	  32	    524288	     0.021 GigaMultsPerSecond
+33554432	  32	   1048576	    11.754 GigaMultsPerSecond
+67108864	  32	   2097152	    15.219 GigaMultsPerSecond
+134217728	  32	   4194304	     0.661 GigaMultsPerSecond
+ 1048576	 128	      8192	     2.300 GigaMultsPerSecond
+ 2097152	 128	     16384	     4.423 GigaMultsPerSecond
+ 4194304	 128	     32768	     0.155 GigaMultsPerSecond
+ 8388608	 128	     65536	     1.069 GigaMultsPerSecond
+16777216	 128	    131072	    26.694 GigaMultsPerSecond
+33554432	 128	    262144	    35.228 GigaMultsPerSecond
+67108864	 128	    524288	    42.070 GigaMultsPerSecond
+134217728	 128	   1048576	    46.205 GigaMultsPerSecond
+ 1048576	 256	      4096	     4.096 GigaMultsPerSecond
+ 2097152	 256	      8192	     6.745 GigaMultsPerSecond
+ 4194304	 256	     16384	    11.099 GigaMultsPerSecond
+ 8388608	 256	     32768	    17.751 GigaMultsPerSecond
+16777216	 256	     65536	    26.725 GigaMultsPerSecond
+33554432	 256	    131072	    35.847 GigaMultsPerSecond
+67108864	 256	    262144	    42.819 GigaMultsPerSecond
+134217728	 256	    524288	    47.137 GigaMultsPerSecond
+ 1048576	 512	      2048	     4.605 GigaMultsPerSecond
+ 2097152	 512	      4096	     8.384 GigaMultsPerSecond
+ 4194304	 512	      8192	    13.616 GigaMultsPerSecond
+ 8388608	 512	     16384	    19.736 GigaMultsPerSecond
+16777216	 512	     32768	    27.639 GigaMultsPerSecond
+]0;zhaolia@submit-c:~/cs575/pro6submit-c ~/cs575/pro6 994$ cat Mult.err
+ 1048576	   2	    524288	     0.930 GigaMultsPerSecond
+ 2097152	   2	   1048576	     1.026 GigaMultsPerSecond
+ 4194304	   2	   2097152	     1.099 GigaMultsPerSecond
+ 8388608	   2	   4194304	     1.147 GigaMultsPerSecond
+16777216	   2	   8388608	     1.167 GigaMultsPerSecond
+33554432	   2	  16777216	     1.180 GigaMultsPerSecond
+67108864	   2	  33554432	     1.188 GigaMultsPerSecond
+134217728	   2	  67108864	     1.227 GigaMultsPerSecond
+ 1048576	   4	    262144	     1.461 GigaMultsPerSecond
+ 2097152	   4	    524288	     1.797 GigaMultsPerSecond
+ 4194304	   4	   1048576	     2.013 GigaMultsPerSecond
+ 8388608	   4	   2097152	     2.161 GigaMultsPerSecond
+16777216	   4	   4194304	     2.274 GigaMultsPerSecond
+33554432	   4	   8388608	     2.324 GigaMultsPerSecond
+67108864	   4	  16777216	     2.360 GigaMultsPerSecond
+134217728	   4	  33554432	     2.622 GigaMultsPerSecond
+ 1048576	   8	    131072	     2.218 GigaMultsPerSecond
+ 2097152	   8	    262144	     2.836 GigaMultsPerSecond
+ 4194304	   8	    524288	     3.401 GigaMultsPerSecond
+ 8388608	   8	   1048576	     3.764 GigaMultsPerSecond
+16777216	   8	   2097152	     4.337 GigaMultsPerSecond
+33554432	   8	   4194304	     4.487 GigaMultsPerSecond
+67108864	   8	   8388608	     4.573 GigaMultsPerSecond
+134217728	   8	  16777216	     4.682 GigaMultsPerSecond
+ 1048576	  32	     32768	     0.437 GigaMultsPerSecond
+ 2097152	  32	     65536	     3.305 GigaMultsPerSecond
+ 4194304	  32	    131072	     7.498 GigaMultsPerSecond
+ 8388608	  32	    262144	     1.508 GigaMultsPerSecond
+16777216	  32	    524288	     0.021 GigaMultsPerSecond
+33554432	  32	   1048576	    11.754 GigaMultsPerSecond
+67108864	  32	   2097152	    15.219 GigaMultsPerSecond
+134217728	  32	   4194304	     0.661 GigaMultsPerSecond
+ 1048576	 128	      8192	     2.300 GigaMultsPerSecond
+ 2097152	 128	     16384	     4.423 GigaMultsPerSecond
+ 4194304	 128	     32768	     0.155 GigaMultsPerSecond
+ 8388608	 128	     65536	     1.069 GigaMultsPerSecond
+16777216	 128	    131072	    26.694 GigaMultsPerSecond
+33554432	 128	    262144	    35.228 GigaMultsPerSecond
+67108864	 128	    524288	    42.070 GigaMultsPerSecond
+134217728	 128	   1048576	    46.205 GigaMultsPerSecond
+ 1048576	 256	      4096	     4.096 GigaMultsPerSecond
+ 2097152	 256	      8192	     6.745 GigaMultsPerSecond
+ 4194304	 256	     16384	    11.099 GigaMultsPerSecond
+ 8388608	 256	     32768	    17.751 GigaMultsPerSecond
+16777216	 256	     65536	    26.725 GigaMultsPerSecond
+33554432	 256	    131072	    35.847 GigaMultsPerSecond
+67108864	 256	    262144	    42.819 GigaMultsPerSecond
+134217728	 256	    524288	    47.137 GigaMultsPerSecond
+ 1048576	 512	      2048	     4.605 GigaMultsPerSecond
+ 2097152	 512	      4096	     8.384 GigaMultsPerSecond
+ 4194304	 512	      8192	    13.616 GigaMultsPerSecond
+ 8388608	 512	     16384	    19.736 GigaMultsPerSecond
+16777216	 512	     32768	    27.639 GigaMultsPerSecond
+33554432	 512	     65536	    36.884 GigaMultsPerSecond
+67108864	 512	    131072	    43.019 GigaMultsPerSecond
+134217728	 512	    262144	    46.661 GigaMultsPerSecond
+ 1048576	1024	      1024	     4.478 GigaMultsPerSecond
+ 2097152	1024	      2048	     8.426 GigaMultsPerSecond
+ 4194304	1024	      4096	    13.983 GigaMultsPerSecond
+ 8388608	1024	      8192	    20.312 GigaMultsPerSecond
+16777216	1024	     16384	    26.740 GigaMultsPerSecond
+33554432	1024	     32768	    36.864 GigaMultsPerSecond
+67108864	1024	     65536	    42.430 GigaMultsPerSecond
+134217728	1024	    131072	    45.750 GigaMultsPerSecond
+]0;zhaolia@submit-c:~/cs575/pro6submit-c ~/cs575/pro6 994$ exit
+logout
+Connection to submit-c.hpc.engr.oregonstate.edu closed.
+]0;zhaolia@rabbit:~/cs575/pro6/part3rabbit ~/cs575/pro6/part3 991$ ls
+[0m[38;5;27mCL[0m                  [38;5;34mfirstP1[0m         [38;5;34mMakefile[0m                 typescript
+[38;5;34mfirstMultAdd.cl[0m     [38;5;34mfirstP2[0m         [38;5;34mProject6Writeup.tar.bz2[0m
+[38;5;34mfirstMult.cl[0m        [38;5;34mfirstPart1.cpp[0m  [38;5;34mreduce.sh[0m
+[38;5;34mfirstMultReduce.cl[0m  [38;5;34mfirstPart2.cpp[0m  [38;5;34mscript.sh[0m
+]0;zhaolia@rabbit:~/cs575/pro6/part3rabbit ~/cs575/pro6/part3 992$ cd ..
+]0;zhaolia@rabbit:~/cs575/pro6rabbit ~/cs575/pro6 993$ ls
+[0m[38;5;27mCL[0m                       [38;5;34mMakefile[0m     [38;5;34mMult.cl[0m   [38;5;34mMultRedu.cl[0m        [38;5;27mpart3[0m
+data.txt                 [38;5;34mMult[0m         [38;5;34mMult.cpp[0m  [38;5;34mMultRedu.cpp[0m
+[38;5;34mDGX_MultScriptAdd.bash[0m   [38;5;34mMultAdd[0m      Mult.err  [38;5;34mMultScriptAdd.sh[0m
+[38;5;34mDGX_MultScript.bash[0m      [38;5;34mMultAdd.cl[0m   Mult.out  [38;5;34mMultScriptRedu.sh[0m
+[38;5;34mDGX_MultScriptRedu.bash[0m  [38;5;34mMultAdd.cpp[0m  [38;5;34mMultRedu[0m  [38;5;34mMultScript.sh[0m
+]0;zhaolia@rabbit:~/cs575/pro6rabbit ~/cs575/pro6 994$ cd [K[K[Kls[K[K./MultScript.sh
+NUM_ELEMENTS	LOCAL_SIZE	NUM_WORK_GROUPS		Performance
+
+ 1048576	   2	    524288	     0.616 GigaMultsPerSecond
+ 2097152	   2	   1048576	     0.704 GigaMultsPerSecond
+ 4194304	   2	   2097152	     0.721 GigaMultsPerSecond
+ 8388608	   2	   4194304	     0.735 GigaMultsPerSecond
+16777216	   2	   8388608	     0.742 GigaMultsPerSecond
+33554432	   2	  16777216	     0.750 GigaMultsPerSecond
+67108864	   2	  33554432	     0.750 GigaMultsPerSecond
+134217728	   2	  67108864	     0.769 GigaMultsPerSecond
+ 1048576	   4	    262144	     1.195 GigaMultsPerSecond
+ 2097152	   4	    524288	     1.462 GigaMultsPerSecond
+ 4194304	   4	   1048576	     1.545 GigaMultsPerSecond
+ 8388608	   4	   2097152	     1.627 GigaMultsPerSecond
+16777216	   4	   4194304	     1.681 GigaMultsPerSecond
+33554432	   4	   8388608	     1.500 GigaMultsPerSecond
+67108864	   4	  16777216	     1.493 GigaMultsPerSecond
+134217728	   4	  33554432	     1.551 GigaMultsPerSecond
+ 1048576	   8	    131072	     2.093 GigaMultsPerSecond
+ 2097152	   8	    262144	     2.298 GigaMultsPerSecond
+ 4194304	   8	    524288	     2.829 GigaMultsPerSecond
+ 8388608	   8	   1048576	     3.146 GigaMultsPerSecond
+16777216	   8	   2097152	     3.238 GigaMultsPerSecond
+33554432	   8	   4194304	     3.388 GigaMultsPerSecond
+67108864	   8	   8388608	     3.427 GigaMultsPerSecond
+134217728	   8	  16777216	     3.432 GigaMultsPerSecond
+ 1048576	  32	     32768	     2.821 GigaMultsPerSecond
+ 2097152	  32	     65536	     4.158 GigaMultsPerSecond
+ 4194304	  32	    131072	     6.612 GigaMultsPerSecond
+ 8388608	  32	    262144	     7.807 GigaMultsPerSecond
+16777216	  32	    524288	     9.364 GigaMultsPerSecond
+33554432	  32	   1048576	    11.252 GigaMultsPerSecond
+67108864	  32	   2097152	    11.581 GigaMultsPerSecond
+134217728	  32	   4194304	    11.824 GigaMultsPerSecond
+ 1048576	 128	      8192	     4.092 GigaMultsPerSecond
+ 2097152	 128	     16384	     5.834 GigaMultsPerSecond
+ 4194304	 128	     32768	     9.760 GigaMultsPerSecond
+ 8388608	 128	     65536	    10.619 GigaMultsPerSecond
+16777216	 128	    131072	    13.601 GigaMultsPerSecond
+33554432	 128	    262144	    16.601 GigaMultsPerSecond
+67108864	 128	    524288	    18.979 GigaMultsPerSecond
+134217728	 128	   1048576	    19.310 GigaMultsPerSecond
+ 1048576	 256	      4096	     2.877 GigaMultsPerSecond
+ 2097152	 256	      8192	     5.298 GigaMultsPerSecond
+ 4194304	 256	     16384	    10.444 GigaMultsPerSecond
+ 8388608	 256	     32768	    12.552 GigaMultsPerSecond
+16777216	 256	     65536	    14.841 GigaMultsPerSecond
+33554432	 256	    131072	    16.765 GigaMultsPerSecond
+67108864	 256	    262144	    18.770 GigaMultsPerSecond
+134217728	 256	    524288	    17.066 GigaMultsPerSecond
+ 1048576	 512	      2048	     2.965 GigaMultsPerSecond
+ 2097152	 512	      4096	     5.792 GigaMultsPerSecond
+ 4194304	 512	      8192	     7.730 GigaMultsPerSecond
+ 8388608	 512	     16384	    11.975 GigaMultsPerSecond
+16777216	 512	     32768	    13.926 GigaMultsPerSecond
+33554432	 512	     65536	    17.601 GigaMultsPerSecond
+67108864	 512	    131072	    17.826 GigaMultsPerSecond
+134217728	 512	    262144	    19.142 GigaMultsPerSecond
+ 1048576	1024	      1024	     3.713 GigaMultsPerSecond
+ 2097152	1024	      2048	     5.642 GigaMultsPerSecond
+ 4194304	1024	      4096	     8.087 GigaMultsPerSecond
+ 8388608	1024	      8192	    13.288 GigaMultsPerSecond
+16777216	1024	     16384	    15.654 GigaMultsPerSecond
+33554432	1024	     32768	    16.348 GigaMultsPerSecond
+67108864	1024	     65536	    17.400 GigaMultsPerSecond
+134217728	1024	    131072	    18.518 GigaMultsPerSecond
+]0;zhaolia@rabbit:~/cs575/pro6rabbit ~/cs575/pro6 995$ ./MultScript.shls[Kcd ..[3Plsssh submit-c.hpc.engr.oregonstate.edu
+zhaolia@submit-c.hpc.engr.oregonstate.edu's password: 
+Last login: Sat May 30 20:29:29 2020 from rabbit.engr.oregonstate.edu
+========================================================================
+This system is strictly for use by faculty, students, and staff of
+       the College of Engineering, Oregon State University.
+
+    Unauthorized access is prohibited - violators will be prosecuted
+
+      Use should be consistent with the OSU Acceptable Use Policy
+       as well as College of Engineering policies and guidelines.
+  Refer to http://it.engineering.oregonstate.edu
+
+========================================================================
+   Quotas are used for home directories, incoming email, and printing.
+                    For details, check:
+           http://it.engineering.oregonstate.edu
+------------------------------------------------------------------------
+If you have any problems with this machine, please mail support@engr.orst.edu
+========================================================================
+
+]0;zhaolia@submit-c:~[?1034hsubmit-c ~ 989$ ls
+[0m[38;5;27mcs325[0m       [38;5;27mDesktop[0m    [38;5;27mmail[0m   [38;5;27mPictures[0m  [38;5;27mtestdir$$[0m
+[38;5;27mcs575[0m       [38;5;27mDocuments[0m  [38;5;27mMusic[0m  [38;5;27mprojects[0m  [38;5;27mVideos[0m
+[38;5;27mCS-Classes[0m  [38;5;27mDownloads[0m  [38;5;27mperl5[0m  [38;5;27mPublic[0m    [38;5;27mWindows.Documents[0m
+]0;zhaolia@submit-c:~submit-c ~ 990$ cd [K[K[Kcd cs575/pro6
+]0;zhaolia@submit-c:~/cs575/pro6submit-c ~/cs575/pro6 991$ ls
+[0m[38;5;27mCL[0m                       [38;5;34mMakefile[0m     [38;5;34mMult.cl[0m   [38;5;34mMultRedu.cl[0m        [38;5;27mpart3[0m
+data.txt                 [38;5;34mMult[0m         [38;5;

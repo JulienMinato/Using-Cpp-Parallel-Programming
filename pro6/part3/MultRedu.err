@@ -1,0 +1,11 @@
+1048576	 128	      8192	     4.402 GigaMultsPerSecond
+2097152	 128	     16384	     8.234 GigaMultsPerSecond
+4194304	 128	     32768	    14.287 GigaMultsPerSecond
+6291456	 128	     49152	    18.752 GigaMultsPerSecond
+8388608	 128	     65536	    22.185 GigaMultsPerSecond
+10485760	 128	     81920	    24.922 GigaMultsPerSecond
+16777216	 128	    131072	    32.475 GigaMultsPerSecond
+25165824	 128	    196608	    40.227 GigaMultsPerSecond
+33554432	 128	    262144	    45.449 GigaMultsPerSecond
+67108864	 128	    524288	    57.111 GigaMultsPerSecond
+134217728	 128	   1048576	    65.170 GigaMultsPerSecond
